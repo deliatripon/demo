@@ -1,2 +1,9 @@
 https://www.youtube.com/watch?v=8r_IErxmoUc&list=PL1F56EA413018EEE1&index=2 git
 
+
+
+C:\Users\deliatripon\AppData\Roaming\npm;
+C:\Users\deliatripon\AppData\Local\atom\bin;
+C:\Users\deliatripon\git\deliaproject\gitprj\dev\nodejs;
+C:\Users\deliatripon\.jenkins\nodejs
+
