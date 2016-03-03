@@ -1,0 +1,18 @@
+14:57:23.681 INFO - Launching a standalone Selenium Server
+14:57:23.803 INFO - Java: Oracle Corporation 25.5-b02
+14:57:23.803 INFO - OS: Windows 7 6.1 amd64
+14:57:23.822 INFO - v2.52.0, with Core v2.52.0. Built from revision 4c2593c
+14:57:23.921 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:57:23.921 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:57:23.934 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+14:57:23.993 INFO - Version Jetty/5.1.x
+14:57:23.995 INFO - Started HttpContext[/selenium-server,/selenium-server]
+14:57:24.119 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@5594a1b5
+14:57:24.119 INFO - Started HttpContext[/wd,/wd]
+14:57:24.119 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+14:57:24.119 INFO - Started HttpContext[/,/]
+14:57:24.126 INFO - Started SocketListener on 0.0.0.0:4444
+14:57:24.126 INFO - Started org.openqa.jetty.jetty.Server@5f4da5c3
+14:57:24.128 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:57:24.128 INFO - Selenium Server is up and running

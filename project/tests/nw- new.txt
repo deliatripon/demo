@@ -1,0 +1,40 @@
+java -jar selenium-server-standalone-2.47.1.jar
+
+node nightwatch.js -t tests\aerosky\aero.js --verbose
+node nightwatch.js -t tests\googlePageObject.js --verbose
+node nightwatch.js -t tests\page1.js --verbose
+http://tanmaysarkar.com/page-object-model-in-nightwatch/
+http://tanmaysarkar.com/nightwatch-setup-in-windows/
+
+
+
+"page_objects_path" : "pagess",
+
+
+http://mokavilag.com/details.php?news=891
+
+http://tanmaysarkar.com/nightwatch-setup-in-windows/
+
+
+Download Node js from – https://nodejs.org/download/ and install
+npm install npm -g
+
+npm install nightwatch -g
+
+
+java -jar selenium-server-standalone-2.47.1.jar
+node nightwatch.js –t tests\s.js
+
+node nightwatch.js -t tests\functional\tests\aero.js --verbose
+node nightwatch.js -t tests\functional\tests\page1.js --verbose
+
+
+
+node nightwatch.js -t tests\aerosky\aero.js --verbose
+node nightwatch.js -t tests\googlePageObject.js --verbose
+
+
+
+ "page_objects_path" : "pages/paero.js",
+
+C:\Users\deliatripon\AppData\Roaming\npm
