@@ -11,8 +11,8 @@
   "test_workers" : false,
 
   "selenium" : {
-    "start_process" : true,
-    "server_path" : "./lib/selenium/selenium-server-standalone-2.52.0.jar",
+    "start_process" : false,
+    "server_path" : "",
     "log_path" : "",
     "host" : "127.0.0.1",
     "port" : 4444,
