@@ -4,7 +4,7 @@ tags: ['search'],
  client
    .maximizeWindow()
    .useXpath()
-   .url("aerosky.ro")
+   .url(client.globals.urls.aeroskyhome)
    .waitForElementVisible("//input[@id='TextBoxLocalityFrom']", 3000)
    .setValue("//input[@id='TextBoxLocalityFrom']",'Cluj Napoca, Romania (CLJ) (Toate aeroporturile)')
    .waitForElementVisible("//input[@id='TextBoxLocalityTo']", 3000)
