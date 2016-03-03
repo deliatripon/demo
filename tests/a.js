@@ -4,7 +4,7 @@ tags: ['search'],
  client
    .maximizeWindow()
    .useXpath()
-   .url(client.globals.urls.aeroskyhome)
+   .url("aerosky.ro")
    .waitForElementVisible("//input[@id='TextBoxLocalityFrom']", 3000)
    .setValue("//input[@id='TextBoxLocalityFrom']",'Cluj Napoca, Romania (CLJ) (Toate aeroporturile)')
    .waitForElementVisible("//input[@id='TextBoxLocalityTo']", 3000)
@@ -20,7 +20,8 @@ tags: ['search'],
        .frame(0)
                //.waitForElementPresent("//img[contains(@class, 'wp-image')]", 30000)
                .waitForElementVisible("//div[@class='ResultHeaderLeft']", 50000)
-               .assert.containsText("//div[@class='ResultHeaderLeft']", client.globals.search_res_assert)
+               //.assert.containsText("//div[@class='ResultHeaderLeft']", client.globals.search_res_assert)
+               .assert.containsText("//div[@class='tdcell ResultHeaderLeft']", 'Rezultate hotel in Berlin, Germania')
                //.click("//div[@id='mceu_40']/descendant::i[1]")
                .pause(3000)
                //.click("//i[@class='mce-ico.mce-i-dashicon.dashicons-edit']")

@@ -3,7 +3,6 @@
   "output_folder" : "reports",
   "custom_commands_path" : "custom-commands",
   "custom_assertions_path" : "",
-  "page_objects_path" : "",
   "globals_path" : "data/data.js",
   "live_output" : false,
   "parallel_process_delay" : 10,
