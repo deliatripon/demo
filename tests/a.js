@@ -18,12 +18,9 @@ tags: ['search'],
    .waitForElementVisible("//iframe[@id='iframeAmadeus']", 30000)
    .pause(5000)
        .frame(0)
-               //.waitForElementPresent("//img[contains(@class, 'wp-image')]", 30000)
                .waitForElementVisible("//div[@class='ResultHeaderLeft']", 50000)
                .assert.containsText("//div[@class='ResultHeaderLeft']", client.globals.search_res_assert)
-               //.click("//div[@id='mceu_40']/descendant::i[1]")
                .pause(3000)
-               //.click("//i[@class='mce-ico.mce-i-dashicon.dashicons-edit']")
                .frame(null)
    .saveScreenshot('./aerosky/screenshots/screen4.png')
    .end();

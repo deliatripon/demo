@@ -4,9 +4,8 @@ module.exports = {
  //client
    //.maximizeWindow()
    //.useXpath()
-   //.url(client.globals.urls.aeroskyhome)
+   client.url(client.globals.urls.aeroskyhome)
  aero.navigate()
-   //.waitForElementPresent("//a[text()='Villa America']", 21000)
    .assert.visible('@LocalityFromInput')
    .setValue('@LocalityFromInput','Cluj Napoca, Romania (CLJ) (Toate aeroporturile)')
    .pause(1000)
